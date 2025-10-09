@@ -52,20 +52,27 @@ window.tracer(0)
 ######################################################################
 # https://en.wikipedia.org/wiki/Web_colors#Extended_colors
 # Section 2 - Your code
-set_background("puffin")
-
+set_background("lebron full")
+#this is where I have my backround squares
 draw_rectangle("gold", 100, 100, 200, 200)
 draw_rectangle("red", -100, 100, 200, 200)
 draw_rectangle("red", 100, -100, 200, 200)
 draw_rectangle("gold",-100,-100, 200,200)
+#I have my sprites right here
 s1 = create_sprite("gru", 100, 100)
 s2 = create_sprite("long neck", -100, -100)
-s3 + create_sprite()
-
+s1 = create_sprite("soccerball", -100,100)
+s1 = create_sprite("basketball",100,-100 )
+#these two chunks of code create my text
 message1 = create_sprite("alien",-200,200)
 message1.color("red")
-message1.write("Your Name",font = ("Arial", 40, "normal"))
+message1.write("Jackson",font = ("Arial", 40, "normal"))
 message1.hideturtle()
+
+message2 = create_sprite("alien",100,100)
+message2.color("black")
+message2.write("  Hi",font = ("Arial", 40, "normal"))
+message2.hideturtle()
 
 
 ######################################################################
